@@ -15,8 +15,8 @@
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -26,10 +26,20 @@
 
 
     <!--Fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Exo+2:400,800,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Exo:800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
 </head>
 <body>
-<h1 class="header">I Am A</h1>
+<h1 class="header animated slideInDown">I Am A...</h1>
+<hr class="animated slideInLeft divider">
+<br>
+<div class="buttons animated slideInRight">
+    <button class="gradeButton btn btn-primary freshman">Freshman</button><br>
+    <button class="gradeButton btn btn-primary sophomore">Sophomore</button><br>
+    <button class="gradeButton btn btn-primary junior">Junior</button><br>
+    <button class="gradeButton btn btn-primary senior">Senior</button><br>
+</div>
 </body>
 <style>
     body,html{
@@ -39,9 +49,26 @@
         text-align: center;
     }
     .header{
-        font-family: "Exo 2", "Impact";
+        font-family: 'Exo', sans-serif;
         color: #337ab7;
-        font-size: 5vw;
+        font-size: 20vw;
+    }
+    .divider{
+        border-color: #337ab7;
+        height: 10px;
+    }
+    .gradeButton{
+        font-size: 2em;
+        margin-top: 10px;
     }
 </style>
+<script>
+    $(document).ready(function () {
+    $(".gradeButton").click(function () {
+        var btnClass = $(this).attr("Class").replace("gradeButton btn btn-primary " , "");
+        localStorage.setItem("grade", btnClass);
+        window.location.assign("./time.html");
+    });
+    });
+</script>
 </html>
