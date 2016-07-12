@@ -65,7 +65,7 @@ function main() {
                 var startTime = freshmanStartTime[x].toString();
                 var endTime = freshmanEndTime[x].toString();
                 timeLeft = freshmanEndTime[x] - currentTime;
-                if (currentHours + "".substring(0, 2) !== endTime.substring(0, 2)) {
+                if (currentHours + "".substring(0, 2) !== endTime.toString().substring(0, 2)) {
                     timeLeft = timeLeft - 40;
                 }
 
@@ -80,7 +80,7 @@ function main() {
 
             }
             else if (currentTime >= freshmanEndTime [x] && freshmanStartTime[x + 1] >= currentTime) {
-                if (currentHours + "".substring(0, 2) !== endTime.substring(0, 2)) {
+                if (currentHours + "".substring(0, 2) !== endTime.toString().substring(0, 2)) {
                     timeLeft = timeLeft - 40;
                 }else{
                     timeLeft = freshmanStartTime[x + 1] - currentTime;
@@ -108,7 +108,7 @@ function main() {
                 var startTime = upperStartTime[x].toString();
                 var endTime = upperEndTime[x].toString();
                 timeLeft = upperEndTime[x] - currentTime;
-                if (currentHours + "".substring(0, 2) !== endTime.substring(0, 2)) {
+                if (currentHours + "".substring(0, 2) !== endTime.toString().substring(0, 2)) {
                     timeLeft = timeLeft - 40;
                 }
 
@@ -123,7 +123,9 @@ function main() {
 
             }
             else if (currentTime >= upperEndTime [x] && upperStartTime[x + 1] >= currentTime) {
-                if (currentHours + "".substring(0, 2) !== endTime.substring(0, 2)) {
+                var startTime = upperStartTime[x].toString();
+                var endTime = upperEndTime[x].toString();
+                if (currentHours + "".substring(0, 2) !== endTime.toString().substring(0, 2)) {
                     timeLeft = timeLeft - 40;
                 }else{
                     timeLeft = freshmanStartTime[x + 1] - currentTime;
