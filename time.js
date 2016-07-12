@@ -20,7 +20,7 @@ if(dotw === "wednesday"){
     upperStartTime = upperStartTimeWed;
     upperEndTime =  upperEndTimeWed;
 }
-alert(dotw);
+
 var currentHours = d.getHours();
 var currentMinutes = d.getMinutes();
 var currentTime = currentHours + "" + currentMinutes;
@@ -59,7 +59,7 @@ function main() {
                 var startTime = freshmanStartTime[x].toString();
                 var endTime = freshmanEndTime[x].toString();
                 timeLeft = freshmanEndTime[x] - currentTime;
-                if (startTime.substring(0, 2) !== endTime.substring(0, 2)) {
+                if (currentHours + "".substring(0, 2) !== endTime.substring(0, 2)) {
                     timeLeft = timeLeft - 40;
                 }
 
@@ -74,7 +74,12 @@ function main() {
 
             }
             else if (currentTime >= freshmanEndTime [x] && freshmanStartTime[x + 1] >= currentTime) {
-                timeLeft = freshmanStartTime[x + 1] - currentTime;
+                if (currentHours + "".substring(0, 2) !== endTime.substring(0, 2)) {
+                    timeLeft = timeLeft - 40;
+                }else{
+                    timeLeft = freshmanStartTime[x + 1] - currentTime;
+                }
+
                 $(".time").html("There are " + timeLeft + " Minutes Left Until Next Period");
 
 
@@ -97,7 +102,7 @@ function main() {
                 var startTime = upperStartTime[x].toString();
                 var endTime = upperEndTime[x].toString();
                 timeLeft = upperEndTime[x] - currentTime;
-                if (startTime.substring(0, 2) !== endTime.substring(0, 2)) {
+                if (currentHours + "".substring(0, 2) !== endTime.substring(0, 2)) {
                     timeLeft = timeLeft - 40;
                 }
 
@@ -112,7 +117,11 @@ function main() {
 
             }
             else if (currentTime >= upperEndTime [x] && upperStartTime[x + 1] >= currentTime) {
-                timeLeft = upperStartTime[x + 1] - currentTime;
+                if (currentHours + "".substring(0, 2) !== endTime.substring(0, 2)) {
+                    timeLeft = timeLeft - 40;
+                }else{
+                    timeLeft = freshmanStartTime[x + 1] - currentTime;
+                }
                 $(".time").html("There are " + timeLeft + " Minutes Left Until Next Period");
 
 
