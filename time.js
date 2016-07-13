@@ -48,7 +48,7 @@ var inval;
 var loadedGrade = localStorage.getItem("grade");
 var parser = document.createElement('a');
 parser.href = window.location.href;
-
+alert(loadedGrade);
 if(loadedGrade === null){
     if(parser.hash + "" === "freshman"){
         localStorage.setItem("grade", parser.hash.replace("#", ""));
