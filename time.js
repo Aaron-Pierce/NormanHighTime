@@ -45,13 +45,18 @@ function reinitTime() {
 var timeLeft;
 var hour;
 var inval;
+var loadedGrade = localStorage.getItem("grade");
 var parser = document.createElement('a');
 parser.href = window.location.href;
-if(parser.hash + "" === "freshman"){
-    localStorage.setItem("grade", parser.hash.replace("#", ""));
-}else if(parser.hash + "" !== undefined){
-    localStorage.setItem("grade", parser.hash.replace("#", ""));
+
+if(loadedGrade === null){
+    if(parser.hash + "" === "freshman"){
+        localStorage.setItem("grade", parser.hash.replace("#", ""));
+    }else if(parser.hash + "" !== undefined){
+        localStorage.setItem("grade", parser.hash.replace("#", ""));
+    }
 }
+
 function main() {
     var grade = localStorage.getItem("grade");
     console.log("Grade " + grade + " Was Found");
