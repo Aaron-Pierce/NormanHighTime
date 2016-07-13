@@ -1,15 +1,15 @@
 /**
  * Created by Aaron on 7/11/2016.
  */
-var freshmanStartTime = [735, 835, 900,1008, 1104, 1159, 1302, 1406, 1510];
-var freshmanEndTime = [840, 855, 1000, 1104, 1159, 1254, 1358, 1502, 1605];
-var upperStartTime = [735, 835, 900,1008, 1112, 1207, 1302, 1406, 1510];
-var upperEndTime = [840, 855, 1000, 1104, 1207, 1302, 1358, 1502, 1605];
+var freshmanStartTime = ["0735", "0835", "0900","1008", "1104", "1159", "1302", "1406", "1510"];
+var freshmanEndTime = ["0840", "0855", "1000", "1104", "1159", "1254", "1358", "1502", "1605"];
+var upperStartTime = ["0735", "0835", "0900","1008", "1112", "1207", "1302", "1406", "1510"];
+var upperEndTime = ["0840", "0855", "1000", "1104", "1207", "1302", "1358", "1502", "1605"];
 
-var freshmanStartTimeWed = [735, 835, 900, 956, 1029, 1114, 1204, 1303, 1356, 1428, 1521];
-var freshmanEndTimeWed = [840, 855, 948, 1021, 1114, 1204, 1255, 1348, 1420, 1513, 1605];
-var upperStartTimeWed = [735, 835, 900, 1001, 1059, 1149, 1244, 1331, 1419, 1516];
-var upperEndTimeWed = [840, 855, 948, 1021, 1114, 1213, 1303, 1348, 1420, 1513, 1605];
+var freshmanStartTimeWed = ["0735", "0835", "0900", "0956", "1029", "1114", "1204", "1303", "1356", "1428", "1521"];
+var freshmanEndTimeWed = ["0840", "0855", "0948", "1021", "1114", "1204", "1255", "1348", "1420", "1513", "1605"];
+var upperStartTimeWed = ["0735", "0835", "0900", "1001", "1059", "1149", "1244", "1331", "1419", "1516"];
+var upperEndTimeWed = ["0840", "0855", "0948", "1021", "1114", "1213", "1303", "1348", "1420", "1513", "1605"];
 
 var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 var d = new Date();
@@ -60,7 +60,7 @@ function main() {
 
         for (var x = 0; x < freshmanStartTime.length; x++) {
 
-            if (freshmanStartTime[x] < currentTime && currentTime < freshmanEndTime[x]) {
+            if (freshmanStartTime[x] <= currentTime && currentTime <= freshmanEndTime[x]) {
                 console.log("valid time found");
                 var startTime = freshmanStartTime[x].toString();
                 var endTime = freshmanEndTime[x].toString();
@@ -103,7 +103,7 @@ function main() {
         console.log("Converting to upperclassman mode");
         for (var x = 0; x < upperStartTime.length; x++) {
 
-            if (upperStartTime[x] < currentTime && currentTime < upperEndTime[x]) {
+            if (upperStartTime[x] <= currentTime && currentTime <= upperEndTime[x]) {
                 console.log("valid time found");
                 var startTime = upperStartTime[x].toString();
                 var endTime = upperEndTime[x].toString();

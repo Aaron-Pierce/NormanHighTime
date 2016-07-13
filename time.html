@@ -42,6 +42,7 @@
     <button class="randomColor btn btn-primary">Random</button>
 </div>
 <span class="glyphicon glyphicon-option-vertical options" aria-hidden="true"></span>
+<a href="#" title="That&apos;s what this widget is" class="tip"></a>
 <div class="timeWrapper">
 
     <span class="timeBlock">
@@ -74,7 +75,7 @@
     }
     .time{
 
-        font-size: 15vw;
+        font-size: 15vmin;
     }
     .signature{
         /*color: #337ab7;*/
@@ -91,10 +92,10 @@
     .options{
         float: right;
         /*color: #337ab7;*/
-        font-size: 5vw;
+        font-size: 5vmin;
     }
     .dialogText{
-        font-size: 5vw;
+        font-size: 5vmin;
     }
 </style>
 <script>
@@ -146,8 +147,5 @@
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 </script>
-<script>
 
-
-</script>
 </html>
