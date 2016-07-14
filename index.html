@@ -31,15 +31,15 @@
 
 </head>
 <body>
-<h1 class="header animated slideInDown">I Am A...</h1>
-<hr class="animated slideInLeft divider">
-<br>
-<div class="buttons animated slideInRight">
-    <button class="gradeButton btn btn-primary freshman">Freshman</button><br>
-    <button class="gradeButton btn btn-primary sophomore">Sophomore</button><br>
-    <button class="gradeButton btn btn-primary junior">Junior</button><br>
-    <button class="gradeButton btn btn-primary senior">Senior</button><br>
-</div>
+<!--<h1 class="header animated slideInDown">I Am A...</h1>-->
+<!--<hr class="animated slideInLeft divider">-->
+<!--<br>-->
+<!--<div class="buttons animated slideInRight">-->
+    <!--<button class="gradeButton btn btn-primary freshman">Freshman</button><br>-->
+    <!--<button class="gradeButton btn btn-primary sophomore">Sophomore</button><br>-->
+    <!--<button class="gradeButton btn btn-primary junior">Junior</button><br>-->
+    <!--<button class="gradeButton btn btn-primary senior">Senior</button><br>-->
+<!--</div>-->
 </body>
 <style>
     body,html{
@@ -64,6 +64,7 @@
 </style>
 <script>
     $(document).ready(function () {
+        $("body").append('<h1 class="header animated slideInDown">I Am A...</h1> <hr class="animated slideInLeft divider"> <br> <div class="buttons animated slideInRight"> <button class="gradeButton btn btn-primary freshman">Freshman</button><br> <button class="gradeButton btn btn-primary sophomore">Sophomore</button><br> <button class="gradeButton btn btn-primary junior">Junior</button><br> <button class="gradeButton btn btn-primary senior">Senior</button><br> </div>');
     $(".gradeButton").click(function () {
         var btnClass = $(this).attr("Class").replace("gradeButton btn btn-primary " , "");
         localStorage.setItem("grade", btnClass);
