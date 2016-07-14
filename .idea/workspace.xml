@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a404e34-d76c-4f62-ae81-d216c9ed1b0b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time.html" afterPath="$PROJECT_DIR$/time.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time.js" afterPath="$PROJECT_DIR$/time.js" />
     </list>
     <ignored path="NormanHighTime.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="time.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/time.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="time.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/time.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="78" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="159" selection-end-column="9" />
+            <state relative-caret-position="289">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -79,10 +80,10 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/color.js" />
         <option value="$PROJECT_DIR$/redir/freshmanRedir.html" />
-        <option value="$PROJECT_DIR$/time.js" />
         <option value="$PROJECT_DIR$/AnimateTests.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/time.html" />
+        <option value="$PROJECT_DIR$/time.js" />
       </list>
     </option>
   </component>
@@ -180,7 +181,7 @@
       <recent name="C:\Users\Aaron\NormanHighTime" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.time.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NormanHighTime/public/index.html">
       <method />
     </configuration>
@@ -254,9 +255,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.AnimateTests.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.time.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.time.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.AnimateTests.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -282,12 +283,12 @@
       <workItem from="1468437388979" duration="48000" />
       <workItem from="1468448059380" duration="3764000" />
       <workItem from="1468523659853" duration="1407000" />
-      <workItem from="1468528043045" duration="626000" />
+      <workItem from="1468528043045" duration="680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29372000" />
+    <option name="totallyTimeSpent" value="29426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -648,16 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="78" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="159" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AnimateTests.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
@@ -678,9 +669,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/time.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
