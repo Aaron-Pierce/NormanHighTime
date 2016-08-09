@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a404e34-d76c-4f62-ae81-d216c9ed1b0b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/NormanHighTime.iml" afterPath="$PROJECT_DIR$/.idea/NormanHighTime.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/NormanHighTime_node_modules.xml" afterPath="$PROJECT_DIR$/.idea/libraries/NormanHighTime_node_modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time.html" afterPath="$PROJECT_DIR$/time.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time.js" afterPath="$PROJECT_DIR$/time.js" />
     </list>
     <ignored path="NormanHighTime.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +36,8 @@
       <file leaf-file-name="time.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/time.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="92" column="13" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="13" />
+            <state relative-caret-position="25">
+              <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -332,12 +327,12 @@
       <workItem from="1469107400972" duration="589000" />
       <workItem from="1469217643367" duration="302000" />
       <workItem from="1469246098857" duration="22000" />
-      <workItem from="1470713805456" duration="602000" />
+      <workItem from="1470713805456" duration="705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31763000" />
+    <option name="totallyTimeSpent" value="31866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -787,8 +782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/time.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="13" />
+        <state relative-caret-position="25">
+          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
           <folding />
         </state>
       </provider>
