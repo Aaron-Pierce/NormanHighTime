@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a404e34-d76c-4f62-ae81-d216c9ed1b0b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time.html" afterPath="$PROJECT_DIR$/time.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time.js" afterPath="$PROJECT_DIR$/time.js" />
     </list>
@@ -37,8 +38,8 @@
       <file leaf-file-name="time.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/time.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+            <state relative-caret-position="510">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -57,7 +58,7 @@
       <file leaf-file-name="time.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/time.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
+            <state relative-caret-position="2686">
               <caret line="158" column="21" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
               <folding />
             </state>
@@ -67,8 +68,8 @@
       <file leaf-file-name="time.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/time.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="147" column="141" selection-start-line="147" selection-start-column="141" selection-end-line="147" selection-end-column="141" />
+            <state relative-caret-position="555">
+              <caret line="146" column="30" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -149,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,7 +200,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -222,7 +223,7 @@
       <recent name="C:\Users\Aaron\NormanHighTime" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.time.html">
     <configuration default="false" name="AnimateTests.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NormanHighTime/AnimateTests.html">
       <method />
     </configuration>
@@ -295,8 +296,9 @@
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.time.html" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.time.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -328,12 +330,13 @@
       <workItem from="1469107400972" duration="589000" />
       <workItem from="1469217643367" duration="302000" />
       <workItem from="1469246098857" duration="22000" />
-      <workItem from="1470713805456" duration="980000" />
+      <workItem from="1470713805456" duration="1579000" />
+      <workItem from="1470754316489" duration="1261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32141000" />
+    <option name="totallyTimeSpent" value="34001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -745,21 +748,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/time.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
+        <state relative-caret-position="2686">
           <caret line="158" column="21" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
           <folding />
         </state>
@@ -775,16 +769,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/time.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+        <state relative-caret-position="510">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/time.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="147" column="141" selection-start-line="147" selection-start-column="141" selection-end-line="147" selection-end-column="141" />
+        <state relative-caret-position="555">
+          <caret line="146" column="30" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
           <folding />
         </state>
       </provider>

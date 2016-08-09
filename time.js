@@ -44,7 +44,7 @@ function reinitTime() {
 
 var timeLeft;
 var hour;
-var inval;
+var inval = 0;
 var loadedGrade = localStorage.getItem("grade");
 var parser = document.createElement('a');
 parser.href = window.location.href;
@@ -70,7 +70,7 @@ function main() {
                 var startTime = freshmanStartTime[x].toString();
                 var endTime = freshmanEndTime[x].toString();
                 timeLeft = freshmanEndTime[x] - currentTime;
-                if (currentHours + "".substring(0, 2) !== endTime.toString().substring(0, 2)) {
+                if (currentHours + "".substring(0, 2) !== endTime + "".substring(0, 2)) {
                     timeLeft = timeLeft - 40;
                 }
 
@@ -85,7 +85,7 @@ function main() {
 
             }
             else if (currentTime >= freshmanEndTime [x] && freshmanStartTime[x + 1] >= currentTime) {
-                if (currentHours + "".substring(0, 2) !== endTime.toString().substring(0, 2)) {
+                if (currentHours + "".substring(0, 2) !== endTime + "".substring(0, 2)) {
                     timeLeft = timeLeft - 40;
                 }else{
                     timeLeft = freshmanStartTime[x + 1] - currentTime;
@@ -98,11 +98,11 @@ function main() {
             else {
                 console.log("Checked time, was invalid.");
                 inval++;
-                // if (inval === freshmanStartTime.length) {
+                if (inval === freshmanStartTime.length) {
                     console.log("School Is Over");
                     $(".time").html("School Is Over <br> <h6 class='bugDisclaimer'>Is school not over? Send an email to nhstime@gmail.com</h6>");
 
-                // }
+                }
             }
         }
     } else {
@@ -114,7 +114,7 @@ function main() {
                 var startTime = upperStartTime[x].toString();
                 var endTime = upperEndTime[x].toString();
                 timeLeft = upperEndTime[x] - currentTime;
-                if (currentHours + "".substring(0, 2) !== endTime.toString().substring(0, 2)) {
+                if (currentHours + "".substring(0, 2) !== endTime + "".substring(0, 2)) {
                     timeLeft = timeLeft - 40;
                 }
 
@@ -131,7 +131,7 @@ function main() {
             else if (currentTime >= upperEndTime [x] && upperStartTime[x + 1] >= currentTime) {
                 var startTime = upperStartTime[x].toString();
                 var endTime = upperEndTime[x].toString();
-                if (currentHours + "".substring(0, 2) !== endTime.toString().substring(0, 2)) {
+                if (currentHours + "".substring(0, 2) !== endTime + "".substring(0, 2)) {
                     timeLeft = timeLeft - 40;
                 }else{
                     timeLeft = freshmanStartTime[x + 1] - currentTime;
@@ -143,10 +143,10 @@ function main() {
             else {
                 console.log("Checked time, was invalid.");
                 inval++;
-                // if (inval === upperStartTime.length) {
+                if (inval === upperStartTime.length) {
                     console.log("School Is Over");
                 $(".time").html("School Is Over <br> <h6 class='bugDisclaimer'>Is school not over? Send an email to nhstime@gmail.com</h6>");
-                // }
+                }
             }
 
         }
