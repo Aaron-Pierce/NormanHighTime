@@ -98,10 +98,11 @@ function main() {
             else {
                 console.log("Checked time, was invalid.");
                 inval++;
-                if (inval === freshmanStartTime.length) {
+                // if (inval === freshmanStartTime.length) {
                     console.log("School Is Over");
                     $(".time").html("School Is Over");
-                }
+                    
+                // }
             }
         }
     } else {
@@ -142,10 +143,10 @@ function main() {
             else {
                 console.log("Checked time, was invalid.");
                 inval++;
-                if (inval === upperStartTime.length) {
+                // if (inval === upperStartTime.length) {
                     console.log("School Is Over");
                     $(".time").html("School Is Over");
-                }
+                // }
             }
 
         }
