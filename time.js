@@ -100,8 +100,8 @@ function main() {
                 inval++;
                 // if (inval === freshmanStartTime.length) {
                     console.log("School Is Over");
-                    $(".time").html("School Is Over");
-                    
+                    $(".time").html("School Is Over <br> <h6 class='bugDisclaimer'>Is school not over? Send an email to nhstime@gmail.com</h6>");
+
                 // }
             }
         }
@@ -145,7 +145,7 @@ function main() {
                 inval++;
                 // if (inval === upperStartTime.length) {
                     console.log("School Is Over");
-                    $(".time").html("School Is Over");
+                $(".time").html("School Is Over <br> <h6 class='bugDisclaimer'>Is school not over? Send an email to nhstime@gmail.com</h6>");
                 // }
             }
 
