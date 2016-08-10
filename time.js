@@ -106,7 +106,8 @@ function main() {
             }
         }
     } else {
-        console.log("Converting to upperclassman mode");
+        console.log("Converting to upper mode");
+
         for (var x = 0; x < upperStartTime.length; x++) {
 
             if (upperStartTime[x] <= currentTime && currentTime <= upperEndTime[x]) {
@@ -129,13 +130,12 @@ function main() {
 
             }
             else if (currentTime >= upperEndTime [x] && upperStartTime[x + 1] >= currentTime) {
-                var startTime = upperStartTime[x].toString();
-                var endTime = upperEndTime[x].toString();
                 if (currentHours + "".substring(0, 2) !== endTime + "".substring(0, 2)) {
                     timeLeft = timeLeft - 40;
                 }else{
-                    timeLeft = freshmanStartTime[x + 1] - currentTime;
+                    timeLeft = upperStartTime[x + 1] - currentTime;
                 }
+
                 $(".time").html("There are " + timeLeft + " Minutes Left Until Next Period");
 
 
@@ -145,11 +145,14 @@ function main() {
                 inval++;
                 if (inval === upperStartTime.length) {
                     console.log("School Is Over");
-                $(".time").html("School Is Over <br> <h6 class='bugDisclaimer'>Is school not over? Send an email to nhstime@gmail.com</h6>");
+                    $(".time").html("School Is Over <br> <h6 class='bugDisclaimer'>Is school not over? Send an email to nhstime@gmail.com</h6>");
+
                 }
             }
-
         }
+            
+
+        
     }
 }
 
