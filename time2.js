@@ -48,7 +48,8 @@ function main() {
         if(parseInt(currentTime) > startTime[x] && parseInt(currentTime) < endTime[x]){
             var timeleft = (parseInt(endTime[x]) - parseInt(currentTime));
             // console.log(currentHours[x] !== endTime[x].substring(0,2) + ", the hour ends during the same hour as the current one");
-            if(currentHours[x] !== endTime[x].substring(0,2)){
+            if(currentHours.substring(0,2) !== endTime[x].substring(0,2)){
+                console.log("The hour ends at a different hour than the current one. Subtracting 40.");
             timeleft -= 40;
         }
         console.log("It is currently " + currentTime + ", the hour ends at " + endTime[x] + ". The hour ends in " + timeleft +  " minutes");
@@ -56,7 +57,7 @@ function main() {
         // console.log(parseInt(endTime[x]) - parseInt(currentTime) + "");
     }else if(parseInt(currentTime) > endTime[x] && parseInt(currentTime) < startTime[x+1]){
             var timeleft = parseInt(startTime[x+1]) - parseInt(currentTime);
-            if(currentHours[x] !== startTime[x+1].substring(0,2)){
+            if(currentHours.substring(0,2) !== startTime[x+1].substring(0,2)){
                 timeleft -= 40;
             }
             console.log("It is currently passing period, the next hour begins at " +startTime[x+1]+ " and that is in " + timeleft + " minutes");
@@ -103,13 +104,13 @@ function getTime() {
     var d = new Date();
     currentHours = d.getHours().toString();
     if(currentHours.length === 1){
-        currentHours = " " + currentHours;
+        currentHours = "0" + currentHours;
     }
     currentMinutes = d.getMinutes().toString();
     if(currentMinutes.length === 1){
-        currentMinutes = " " + currentHours;
+        currentMinutes = "0" + currentMinutes;
     }
-    currentTime = currentHours + "" + currentMinutes;
+    currentTime = currentHours + currentMinutes;
 }
 //TODO: uncomment this for prod
 setInterval(function () {

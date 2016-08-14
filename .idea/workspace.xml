@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a404e34-d76c-4f62-ae81-d216c9ed1b0b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time.html" afterPath="$PROJECT_DIR$/time.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time2.js" afterPath="$PROJECT_DIR$/time2.js" />
     </list>
     <ignored path="NormanHighTime.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,8 +77,8 @@
       <file leaf-file-name="time2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/time2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="340">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -173,7 +172,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,6 +192,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -206,15 +205,15 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aaron\NormanHighTime\public" />
+      <recent name="C:\Users\Aaron\NormanHighTime" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aaron\NormanHighTime" />
       <recent name="C:\Users\Aaron\NormanHighTime\public" />
       <recent name="C:\Users\Aaron\NormanHighTime\css" />
       <recent name="C:\Users\Aaron\NormanHighTime\redir" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Aaron\NormanHighTime\public" />
-      <recent name="C:\Users\Aaron\NormanHighTime" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
@@ -331,12 +330,22 @@
       <workItem from="1470847181886" duration="218000" />
       <workItem from="1471057049449" duration="26000" />
       <workItem from="1471114525368" duration="5668000" />
-      <workItem from="1471111012394" duration="243000" />
+      <workItem from="1471111012394" duration="965000" />
+      <workItem from="1471189655889" duration="32000" />
+      <workItem from="1471193015201" duration="1224000" />
     </task>
+    <task id="LOCAL-00001" summary="Rewrote time.js">
+      <created>1471122830194</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1471122830194</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41554000" />
+    <option name="totallyTimeSpent" value="43532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -398,6 +407,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rewrote time.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewrote time.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -785,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/time2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="340">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
